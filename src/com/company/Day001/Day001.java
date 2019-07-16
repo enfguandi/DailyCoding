@@ -5,7 +5,7 @@ public class Day001 {
         System.out.println("Start Day001");
         int[] x = new int[5];
         int k = 17;
-        int treffer = 0;
+        int hit = 0;
 
         x[0] = 10;
         x[1] = 15;
@@ -15,12 +15,12 @@ public class Day001 {
         for(int y : x){
             for(int z : x){
                 if(y + z == k){
-                    treffer++;
+                    hit++;
                     System.out.println(y + " + " + z + " = " + k);
                 }
             }
         }
-        System.out.println("Treffer: " + treffer);
+        System.out.println("Hits: " + hit);
         System.out.println("Finish Day001!!!");
     }
 
