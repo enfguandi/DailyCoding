@@ -10,13 +10,24 @@ public class Main {
         Day001 day001 = new Day001();
         System.out.println(day001.problem());
         day001.day001();
+        seperateDays();
 
         Day005 day005 = new Day005();
         System.out.println(day005.problem());
         day005.day005();
+        seperateDays();
 
         Day007 day007 = new Day007();
         System.out.println(day007.problem());
         day007.day007();
+        seperateDays();
+
+
     }
+    private static void seperateDays(){
+        System.out.println();
+        System.out.println("#########################################################################################################################################################################");
+        System.out.println();
+    }
+
 }

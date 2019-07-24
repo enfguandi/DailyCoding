@@ -7,7 +7,6 @@ public class Day005 {
     public void day005(){
         System.out.println("Start solution Day005!");
 
-
         System.out.println(car(pairing(3,7)));
         System.out.println(cdr(pairing(3,7)));
 
